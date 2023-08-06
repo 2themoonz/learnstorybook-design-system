@@ -3,6 +3,23 @@ import { Avatar } from './Avatar';
 export default {
   title: 'Design System/Avatar',
   component: Avatar,
+  argTypes: {
+    size: {
+      control: {
+        type: 'select',
+      },
+      options: ['large', 'medium', 'small', 'tiny'],
+    },
+  },
+};
+
+export const Controls = {
+  args: {
+    loading: false,
+    size: 'large',
+    username: 'Ethan Phan',
+    src: 'https://avatars.githubusercontent.com/u/263385',
+  },
 };
 
 export const Standard = {
