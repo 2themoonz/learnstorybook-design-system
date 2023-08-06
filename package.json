@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "ui_weds",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -19,7 +19,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_073c1c60a16c0d2",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "build-storybook-docs": "storybook build  --docs"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -33,6 +34,8 @@
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-terser": "^0.4.3",
+    "@storybook/addon-a11y": "^7.2.1",
+    "@storybook/addon-coverage": "^0.0.9",
     "@storybook/addon-essentials": "^7.2.1",
     "@storybook/addon-interactions": "^7.2.1",
     "@storybook/addon-links": "^7.2.1",
@@ -80,5 +83,6 @@
     "jackspeak": "2.1.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0"
+  "repository": "git@github.com:ethanp-weds/learnstorybook-design-system.git",
+  "author": "ethanp <ethanp.dev@gmail.com>"
 }
